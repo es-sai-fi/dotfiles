@@ -1,0 +1,412 @@
+2+1
+math 2+1
+math 2 + 1
+math
+math sum 3 2
+math sum
+quit
+exit
+config nu
+exit
+config nu
+exit
+env nu
+exit
+echo $REGISTRY_AUTH_FILE
+echo $env.REGISTRY_AUTH_FILE
+podman login ghcr
+exit
+echo $nu.data-dir
+config nu
+exit
+echo $env.PATH
+bat
+z nvim
+z
+exit
+nu
+sudo pacman -Rcns fish
+sudo pacman -Rcns nushell
+sudo pacman -Rcns baloo
+sudo pacman -S caparace
+sudo pacman -S carapace
+cd Downloads/
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+z Downloads
+z
+z Downloads
+ls
+unzip yay-next.zip
+ls
+z yay-next
+ls
+makepg -si
+sudo pacman -Qs base-devel
+pacman -Qs base-devel
+makepkg -si
+z Makefile
+cd Makefile
+cd pkg
+ls
+cd ..
+ls
+rm yay-next/
+rm -r yay-next/
+rm -r yay-next
+rm -r yay-next.zip
+ls
+tldr tar
+tar xvf yay_12.5.2_x86_64.tar.gz
+ls
+cd yay_12.5.2_x86_64/
+ls
+yay
+cd Downloads/
+nvim yay_12.5.2_x86_64/yay
+./yay
+yay -S yay
+./yay -S yay
+cd ..
+rm yay*
+rm -r yay*
+ls
+ls -a
+fd --glob "*yay*" /
+fd --glob "*fish*" /
+sudo rm /var/cache/pacman/pkg/fish*
+bash
+ls /usr/share/fish/
+ls /usr/share/
+zsh
+sudo rm /usr/share/fish/
+sudo rm -r /usr/share/fish/
+fd --glob "*fish*" /
+ls /usr/lib/kitty/
+ls /usr/lib/kitty/shell-integration/
+sudo rm -r /usr/lib/kitty/shell-integration/fish
+fd --glob "*fish*" /
+bat /usr/share/nvim/runtime/indent/fish.vim
+bar /usr/lib/python3.13/venv/scripts/common/activate.fish
+bat /usr/lib/python3.13/venv/scripts/common/activate.fish
+ls /usr/lib/python3.13/venv/scripts/common/
+fd --glob "*fish*" /
+ls /usr/lib/node_modules/npm/lib/utils/
+bat /usr/lib/node_modules/npm/lib/utils/completion.fish
+history
+history | grep rm
+history | where rm
+history | rm
+sudo fd fish /etc /usr /var /opt /home<\n>
+pacman -Qdtq
+ls
+sudo pacman -Syu
+du -sh /
+du -h /
+du -h /home
+du
+du /
+du /home
+bash
+sudo fd --glob "*yay*" /
+man
+man man
+sudo pacman -S man
+man tar
+math 
+math sum 
+math sum -h
+2 + 1
+3*3
+3x3
+3 x 3
+3 * 3
+3 / 3
+history
+path
+path dirname
+podman
+systemctl poweroff
+podman network create ciudad-jardin
+podman network create buitrera
+podman network create cañaveralejo
+podman network create canaveralejo
+podman network create bajo-jordan
+podman network ls
+systemctl poweroff
+watch -n 1 sensors
+watch n 1 sensors
+watch -n 1 sensors
+watch
+watch --help
+sensors
+watch --help
+watch sensors
+watch lm_sensors
+lm_sensors
+systemctl reboot
+alias gp = git push
+gp
+alias gcmsg = git commit -m
+gcmsg hola
+alias gf = git fetch
+config nu
+aliases
+chsh -s $(which nushell)
+chsh -s $(which nu)
+which nu
+chsh -s /usr/bin/nu
+nvim .config/kitty/kitty.conf
+chsh -s /usr/bin/bash
+nvim .config/kitty/kitty.conf
+systemctl reboot
+config nu
+echo $EDITOR
+echo $env.EDITOR
+config nu
+echo $EDITOR
+echo $env.EDITOR
+source ~/.config/nushell/env.nu<\n>
+config nu
+nvim .config/nushell/env.nu
+bash
+nvim .config/nushell/env.nu
+bash
+nvim .config/nushell/env.nu
+yazi --debug
+echo $SHELL
+echo $env.SHELL
+chsh -s /usr/bin/nu
+which nu
+echo $env.SHELL
+systemctl reboot
+echo $env.SHELL
+chsh -s /usr/bin/bash
+yazi --debug
+echo $env.EDITOR
+nvim .config/yazi/yazi.toml
+systemctl reboot
+env
+nvim .config/hypr/hyprland.conf
+bahs
+bash
+echo $env_
+echo $env._
+echo $env.
+nvim .config/nushell/config.nu
+env
+systemctl reboot
+env
+nvim .bashrc
+source .bashrc
+bash
+yazi --debug
+nvim .config/yazi/yazi.toml
+chsh -s /usr/bin/nu
+nvim .config/yazi/yazi.toml
+nvim .config/kitty/kitty.conf
+systemctl reboot
+docker network ls
+podman network ls
+podman network create el-dorado
+z dockerintro/
+git pull origin main
+podman run -d --name svc-nicolas --network canaveralejo -e STUDENT_NAME="Nicolas" -e BARRIO="Cañaveralejo" -v biblioteca-del-pueblo:/var/log/app -p 8081:8080 nickcode13/cali-service:v1
+podman container ls
+podman run -d --name svc-esteban \<\n>  --network buitrera \<\n>  -e STUDENT_NAME="esteban" \<\n>  -e BARRIO="Buitrera" \<\n>  -v biblioteca-del-pueblo:/var/log/app \<\n>  -p 8080:8080 esgore/cali-service:v1
+podman run -d --name svc-esteban &&<\n>  --network buitrera &&<\n>  -e STUDENT_NAME="esteban" &&<\n>  -e BARRIO="Buitrera" &&<\n>  -v biblioteca-del-pueblo:/var/log/app &&<\n>  -p 8080:8080 esgore/cali-service:v
+podman run -d --name svc-esteban --network buitrera -e STUDENT_NAME="esteban" -e BARRIO="Buitrera" -v biblioteca-del-pueblo:/var/log/app -p 8080:8080 esgore/cali-service:v1
+podman run -d --name svc-dylan --network melendez -e STUDENT_NAME="Dylan" -e BARRIO="Melendez" -v biblioteca-del-pueblo:/var/log/app -p 8083:8080 drytec/cali-service:v1
+podman network create melendez
+podman run -d --name svc-dylan --network melendez -e STUDENT_NAME="Dylan" -e BARRIO="Melendez" -v biblioteca-del-pueblo:/var/log/app -p 8083:8080 drytec/cali-service:v1
+docker run -d --name svc-johan --network el-dorado -e STUDENT_NAME="Johan" -e BARRIO="El-Dorado" -v biblioteca-el-dorado:/var/log/app -p 8084:8080 johanact/cali-service:v1
+podman run -d --name svc-johan --network el-dorado -e STUDENT_NAME="Johan" -e BARRIO="El-Dorado" -v biblioteca-el-dorado:/var/log/app -p 8084:8080 johanact/cali-service:v1
+podman container ls
+docker run -d --name svc-jhorman --network ciudad-jardin -e STUDENT_NAME="Jhorman" -e BARRIO="Ciudad Jardin" -v biblioteca-el-dorado:/var/log/app -p 8085:8080 es-sai-fi/cali-service:v1
+podman run -d --name svc-jhorman --network ciudad-jardin -e STUDENT_NAME="Jhorman" -e BARRIO="Ciudad Jardin" -v biblioteca-del-pueblo:/var/log/app -p 8085:8080 es-sai-fi/cali-service:v1
+podman login ghcr
+podman logout ghcr
+bash
+env
+bash
+podman run -d --name svc-jhorman --network ciudad-jardin -e STUDENT_NAME="Jhorman" -e BARRIO="Ciudad Jardin" -v biblioteca-del-pueblo:/var/log/app -p 8085:8080 es-sai-fi/cali-service:v1
+podman login ghcr
+podman login ghcr.io
+podman logout ghcr.io
+podman login ghcr.io
+podman run -d --name svc-jhorman --network ciudad-jardin -e STUDENT_NAME="Jhorman" -e BARRIO="Ciudad Jardin" -v biblioteca-del-pueblo:/var/log/app -p 8085:8080 es-sai-fi/cali-service:v1
+podman volume create biblioteca-del-pueblo
+podman run -d --name svc-jhorman --network ciudad-jardin -e STUDENT_NAME="Jhorman" -e BARRIO="Ciudad Jardin" -v biblioteca-del-pueblo:/var/log/app -p 8085:8080 ghcr.io/es-sai-fi/cali-service:v1
+curl http://localhost:8080
+curl http://localhost:8081
+podman container ls
+docker run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
+podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
+podmain container ls
+podman container ls
+podman container rm svc-nicolas
+podman container -f rm svc-nicolas
+podman container -force rm svc-nicolas
+podman container stop svc-nicolas
+podman container rm svc-nicolas
+podman run -d --name svc-nicolas --network canaveralejo -e STUDENT_NAME="Nicolas" -e BARRIO="Cañaveralejo" -v biblioteca-del-pueblo:/var/log/app -p 8081:80 nickcode13/cali-service:v1
+curl http://localhost:8081
+curl http://localhost:8082
+podman container ls
+curl http://localhost:8083
+curl http://localhost:8084
+curl http://localhost:8085
+podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
+podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 30 /data/visitas.log"
+curl http://localhost:8085
+curl http://localhost:8084
+curl http://localhost:8083
+curl http://localhost:8081
+curl http://localhost:8080
+docker run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
+podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
+docker network ls
+podman network ls
+podman system reset
+podman network create ciudad-jardin el-dorado bajo-jordan buitrera melendez cañaveralejo<\n>podman volume create biblioteca del pueblo
+podman network create ciudad-jardin<\n>podman network create el-dorado<\n>podman network create bajo-jordan<\n>podman network create buitrera<\n>podman network create melendez<\n>podman network create cañaveralejo
+podman network create canaveralejo
+docker run -d --network bajo-jordan -e STUDENT_NAME="Jose" -e BARRIO="Bajo Jordan" -v biblioteca-del-pueblo:/var/log/app -p 8082:8080 jamh4949/cali-service:v1
+<\n>podman run -d --network bajo-jordan -e STUDENT_NAME="Jose" -e BARRIO="Bajo Jordan" -v biblioteca-del-pueblo:/var/log/app -p 8082:8080 jamh4949/cali-service:v1
+curl http://localhost:8082
+podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
+podman run -d --name svc-nicolas --network canaveralejo -e STUDENT_NAME="Nicolas" -e BARRIO="Cañaveralejo" -v biblioteca-del-pueblo:/var/log/app -p 8081:80 nickcode13/cali-service:v1
+curl http://localhost:8080
+curl http://localhost:8081
+podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
+podman run --rm -v biblioteca-del-pueblo:/data alpine sh
+ls
+podman run --rm -it -v biblioteca-del-pueblo:/data alpine sh
+podman run -d --name svc-johan --network el-dorado -e STUDENT_NAME="Johan" -e BARRIO="El-Dorado" -v biblioteca-el-dorado:/var/log/app -p 8084:8080 johanact/cali-service:v1
+curl http://localhost:8084
+podman run --rm -it -v biblioteca-del-pueblo:/data alpine sh
+podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
+curl http://localhost:8084
+podman system reset
+podman network create ciudad-jardin<\n>podman network create el-dorado<\n>podman network create bajo-jordan<\n>podman network create buitrera<\n>podman network create melendez<\n>podman network create canaveralejo<\n>podman volume create biblioteca del pueblo
+podman network create ciudad-jardin<\n>podman network create el-dorado<\n>podman network create bajo-jordan<\n>podman network create buitrera<\n>podman network create melendez<\n>podman network create canaveralejo<\n>podman volume create biblioteca-del-pueblo
+podman volume create biblioteca-del-pueblo
+podman run -d --name svc-johan --network el-dorado -e STUDENT_NAME="Johan" -e BARRIO="El-Dorado" -v biblioteca-del-pueblo:/var/log/app -p 8080:8080 johanact/cali-service:v1
+podman run -d --name svc-esteban --network buitrera -e STUDENT_NAME="esteban" -e BARRIO="Buitrera" -v biblioteca-del-pueblo:/var/log/app -p 8081:8080 esgore/cali-service:v1
+podman run -d --network bajo-jordan -e STUDENT_NAME="Jose" -e BARRIO="Bajo Jordan" -v biblioteca-del-pueblo:/var/log/app -p 8082:8080 jamh4949/cali-service:v1
+<\n>podman run -d --name svc-dylan --network melendez -e STUDENT_NAME="Dylan" -e BARRIO="Melendez" -v biblioteca-del-pueblo:/var/log/app -p 8083:8080 drytec/cali-service:v1
+podman run -d --name svc-jhorman --network ciudad-jardin -e STUDENT_NAME="Jhorman" -e BARRIO="Ciudad Jardin" -v biblioteca-del-pueblo:/var/log/app -p 8084:8080 ghcr.io/es-sai-fi/cali-service<\n>:v1
+podman run -d --name svc-jhorman --network ciudad-jardin -e STUDENT_NAME="Jhorman" -e BARRIO="Ciudad Jardin" -v biblioteca-del-pueblo:/var/log/app -p 8084:8080 ghcr.io/es-sai-fi/cali-service:v1
+curl http://localhost:8080
+curl http://localhost:8081
+curl http://localhost:8082
+curl http://localhost:8083
+curl http://localhost:8084
+curl http://localhost:8085
+podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
+touch lab
+podman system reset
+mv lab lab.nu
+chmod +x lab.nu
+./lab
+./lab.nu
+podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"<\n>
+podman container ls<\n>
+curl http://localhost:8080
+curl http://localhost:8081
+curl http://localhost:8083
+podman system reset
+podman network create ciudad-jardin<\n>podman network create el-dorado<\n>podman network create bajo-jordan<\n>podman network create buitrera<\n>podman network create melendez<\n>podman network create canaveralejo<\n>podman network create 4-esquinas<\n>podman volume create biblioteca-del-pueblo
+podman run -d --name svc-johan --network el-dorado -e STUDENT_NAME="Johan" -e BARRIO="El-Dorado" -v biblioteca-del-pueblo:/var/log/app -p 8080:8080 johanact/cali-service:v1<\n>
+curl http://localhost:8080
+podman system reset
+./lab.nu
+podman system reset
+gf
+cd dockerintro/
+gf
+gp origin jmga
+config nu
+./lab.nu
+config nu
+podman system reset
+./lab.nu
+podman system reset
+sudo pacman -S noto-fonts noto-fonts-emoji<\n>
+./lab.nu
+podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"<\n>
+podman system reset
+nvim .config/kitty/kitty.conf
+nvim .config/yazi/yazi.toml
+podman ps
+ps aux | rg avahi
+ps | rg avahi
+ps
+fd --glob "*copilot*" /
+fd github-copilot
+fd copilo
+fd copilot /
+fd copilot /home
+fd copilot /home/rickystarks/.config/
+fd --glob "*pacman*"
+fd --glob "*pacman*" /
+fd --glob "*copilot*" /
+echo $env.SHELL
+sudo pacman -Syu
+modinfo wd719x
+pacman -Qs linux-firmware
+systemctl poweroff
+steam
+sudo pacman -S niri
+systemctl services
+sudo fd --glob "*dunst*" /
+sudo systemctl status seatd
+sudo systemctl status elogind
+z Projects
+ls
+sudo pacman -S fuzzel mako swaybg
+pacman -Qs xorg-xwayland
+sudo pacman -S lightdm
+bat /var/log/pacman.log
+sudo pacman -S lightdm-gtk-greeter
+sudo pacman -Rcns lightdm
+sudo pacman -S lightdm-gtk-greeter
+sudo systemctl status dunst
+sudo pacman -Qs dunst
+sudo pacman -Rcns dunst
+pacman -Qs xdg-desktop-portal-wlr
+systemctl --user status xdg-desktop-portal.service<\n>
+sudo pacman -S niri
+sudo systemctl enable lightdm.service --now
+sudo pacman -Rcns xdg-desktop-portal-kde
+pacman -Qs xdg-desktop-portal-kde
+pacman -Qs xdg-desktop-portal
+sudo fd --glob "*xdk-desktop-portal-kde*" /
+sudo pacman -S xdg-desktop-portal-gnome
+pacman -Qs plasma-polkit-agent
+pacman -Qs polkit-agent
+niri
+nvim .config/niri/config.kdl
+firefox
+ps | rg firefox
+pkill 23379
+firefox
+ps | rg firefox
+pkill 302
+firefox
+ps | rg firefox
+ps
+pkill -9 23379
+firefox
+ps aux
+ps
+ps | firefox
+firefox
+nvim .config/niri/config.kdl
+hyprland
+ls
+firefox
+ps | firefox
+systemctl reboot
+ls /usr/share/wayland-sessions/
+sudo pacman -Rcns uwsm dolphin wofi xdg-desktop-portal-hyprland
+nvim

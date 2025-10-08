@@ -15,5 +15,8 @@ end
 # Disable welcome prompt
 set fish_greeting ""
 
+# Zoxide integration with fish
+zoxide init fish | source
+
 # Starship integration with fish
 starship init fish | source
