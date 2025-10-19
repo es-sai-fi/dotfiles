@@ -25,12 +25,28 @@ $env.config.buffer_editor = "nvim"
 $env.path ++= ["~/bin"]
 $env.REGISTRY_AUTH_FILE = "/home/rickystarks/.config/containers/auth.json"
 $env.EDITOR = "nvim"
-
+$env.OBS_WEBSOCKET_URL = "obsws://localhost:4455/FSD7cxXnW9GtPrHt"
 
 # Aliases
 alias gp = git push origin
 alias gcmsg = git commit -m
 alias gf = git fetch
+alias nvchad = env NVIM_APPNAME=nvchad nvim
+
+# Functions
+def dev-container [
+  port: int = 5173
+] {
+  podman run ...[
+    "--userns=keep-id",
+    "-it",
+    "--rm",
+    "-v", $"($env.PWD):/home/devuser/workspace",
+    "-w", "/home/devuser/workspace",
+    "-p", $"($port):($port)",
+    "ghcr.io/es-sai-fi/dev:latest"
+  ]
+}
 
 # Zoxide integration
 source ~/.zoxide.nu

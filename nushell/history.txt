@@ -1,412 +1,253 @@
-2+1
-math 2+1
-math 2 + 1
-math
-math sum 3 2
-math sum
-quit
-exit
-config nu
-exit
-config nu
-exit
-env nu
-exit
-echo $REGISTRY_AUTH_FILE
-echo $env.REGISTRY_AUTH_FILE
-podman login ghcr
-exit
-echo $nu.data-dir
-config nu
-exit
-echo $env.PATH
-bat
-z nvim
-z
-exit
-nu
-sudo pacman -Rcns fish
-sudo pacman -Rcns nushell
-sudo pacman -Rcns baloo
-sudo pacman -S caparace
-sudo pacman -S carapace
-cd Downloads/
-sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
-z Downloads
-z
-z Downloads
-ls
-unzip yay-next.zip
-ls
-z yay-next
-ls
-makepg -si
-sudo pacman -Qs base-devel
-pacman -Qs base-devel
-makepkg -si
-z Makefile
-cd Makefile
-cd pkg
-ls
-cd ..
-ls
-rm yay-next/
-rm -r yay-next/
-rm -r yay-next
-rm -r yay-next.zip
-ls
-tldr tar
-tar xvf yay_12.5.2_x86_64.tar.gz
-ls
-cd yay_12.5.2_x86_64/
-ls
-yay
-cd Downloads/
-nvim yay_12.5.2_x86_64/yay
-./yay
-yay -S yay
-./yay -S yay
-cd ..
-rm yay*
-rm -r yay*
+history --clear
+history
+btrfs-assistant-launcher
+rm -r .config/kitty/
+ls .config/
+rm -r .config/zed
+rm -r .config/nvim-kickstart/
+rm -r .config/helix/
+sudo pacman -R gtk-3.0
+sudo pacman -R gtk3
+sudo pacman -R gtk4
+sudo pacman -S nvtop
+sudo fd --glob "*nvtop*" /
+systemctl poweroff
+sudo pacman -syu
+sudo pacman -Syu
+rm .config/nvim/lua/plugins/toggleterm.lua
+rm -r .local/share/nvim/
+rm -r .local/state/nvim/
+systemctl poweroff
+tmux
+sudo pacman -S tmux
+nvim .tmux.conf
+tmux ls
+tmux rm 0
+tmux remove
+tmux help
+tmux --help
 ls
 ls -a
-fd --glob "*yay*" /
-fd --glob "*fish*" /
-sudo rm /var/cache/pacman/pkg/fish*
-bash
-ls /usr/share/fish/
-ls /usr/share/
-zsh
-sudo rm /usr/share/fish/
-sudo rm -r /usr/share/fish/
-fd --glob "*fish*" /
-ls /usr/lib/kitty/
-ls /usr/lib/kitty/shell-integration/
-sudo rm -r /usr/lib/kitty/shell-integration/fish
-fd --glob "*fish*" /
-bat /usr/share/nvim/runtime/indent/fish.vim
-bar /usr/lib/python3.13/venv/scripts/common/activate.fish
-bat /usr/lib/python3.13/venv/scripts/common/activate.fish
-ls /usr/lib/python3.13/venv/scripts/common/
-fd --glob "*fish*" /
-ls /usr/lib/node_modules/npm/lib/utils/
-bat /usr/lib/node_modules/npm/lib/utils/completion.fish
-history
-history | grep rm
-history | where rm
-history | rm
-sudo fd fish /etc /usr /var /opt /home<\n>
-pacman -Qdtq
-ls
-sudo pacman -Syu
-du -sh /
-du -h /
-du -h /home
-du
-du /
-du /home
-bash
-sudo fd --glob "*yay*" /
-man
-man man
-sudo pacman -S man
-man tar
-math 
-math sum 
-math sum -h
-2 + 1
-3*3
-3x3
-3 x 3
-3 * 3
-3 / 3
-history
-path
-path dirname
-podman
-systemctl poweroff
-podman network create ciudad-jardin
-podman network create buitrera
-podman network create cañaveralejo
-podman network create canaveralejo
-podman network create bajo-jordan
-podman network ls
-systemctl poweroff
-watch -n 1 sensors
-watch n 1 sensors
-watch -n 1 sensors
-watch
-watch --help
-sensors
-watch --help
-watch sensors
-watch lm_sensors
-lm_sensors
+mv .tmux.conf .config/tmux/tmux.conf
+mkdir .config/tmux
+mv .tmux.conf .config/tmux/tmux.conf
+ls -a
+ls .config/tmux/
+nvim .config/tmux/tmux.conf
+sudo pacman -Rcns tmux
+rg installing /var/log/pacman.log
+rg PACMAN /var/log/pacman.log
+rg tmux /var/log/pacman.log
+rg installed /var/log/pacman.log
+sudo fd --glob "*nvtop*" /
+sudo fd --glob "*tmux*" /
+rm -r /var/cache/pacman/pkg/tmux*
+sudo rm /var/cache/pacman/pkg/tmux*
 systemctl reboot
-alias gp = git push
-gp
-alias gcmsg = git commit -m
-gcmsg hola
-alias gf = git fetch
-config nu
-aliases
-chsh -s $(which nushell)
-chsh -s $(which nu)
-which nu
-chsh -s /usr/bin/nu
-nvim .config/kitty/kitty.conf
-chsh -s /usr/bin/bash
-nvim .config/kitty/kitty.conf
-systemctl reboot
-config nu
-echo $EDITOR
-echo $env.EDITOR
-config nu
-echo $EDITOR
-echo $env.EDITOR
-source ~/.config/nushell/env.nu<\n>
-config nu
-nvim .config/nushell/env.nu
-bash
-nvim .config/nushell/env.nu
-bash
-nvim .config/nushell/env.nu
-yazi --debug
-echo $SHELL
-echo $env.SHELL
-chsh -s /usr/bin/nu
-which nu
-echo $env.SHELL
-systemctl reboot
-echo $env.SHELL
-chsh -s /usr/bin/bash
-yazi --debug
-echo $env.EDITOR
-nvim .config/yazi/yazi.toml
-systemctl reboot
-env
-nvim .config/hypr/hyprland.conf
-bahs
-bash
-echo $env_
-echo $env._
-echo $env.
-nvim .config/nushell/config.nu
-env
-systemctl reboot
-env
-nvim .bashrc
-source .bashrc
-bash
-yazi --debug
-nvim .config/yazi/yazi.toml
-chsh -s /usr/bin/nu
-nvim .config/yazi/yazi.toml
-nvim .config/kitty/kitty.conf
-systemctl reboot
-docker network ls
-podman network ls
-podman network create el-dorado
-z dockerintro/
-git pull origin main
-podman run -d --name svc-nicolas --network canaveralejo -e STUDENT_NAME="Nicolas" -e BARRIO="Cañaveralejo" -v biblioteca-del-pueblo:/var/log/app -p 8081:8080 nickcode13/cali-service:v1
-podman container ls
-podman run -d --name svc-esteban \<\n>  --network buitrera \<\n>  -e STUDENT_NAME="esteban" \<\n>  -e BARRIO="Buitrera" \<\n>  -v biblioteca-del-pueblo:/var/log/app \<\n>  -p 8080:8080 esgore/cali-service:v1
-podman run -d --name svc-esteban &&<\n>  --network buitrera &&<\n>  -e STUDENT_NAME="esteban" &&<\n>  -e BARRIO="Buitrera" &&<\n>  -v biblioteca-del-pueblo:/var/log/app &&<\n>  -p 8080:8080 esgore/cali-service:v
-podman run -d --name svc-esteban --network buitrera -e STUDENT_NAME="esteban" -e BARRIO="Buitrera" -v biblioteca-del-pueblo:/var/log/app -p 8080:8080 esgore/cali-service:v1
-podman run -d --name svc-dylan --network melendez -e STUDENT_NAME="Dylan" -e BARRIO="Melendez" -v biblioteca-del-pueblo:/var/log/app -p 8083:8080 drytec/cali-service:v1
-podman network create melendez
-podman run -d --name svc-dylan --network melendez -e STUDENT_NAME="Dylan" -e BARRIO="Melendez" -v biblioteca-del-pueblo:/var/log/app -p 8083:8080 drytec/cali-service:v1
-docker run -d --name svc-johan --network el-dorado -e STUDENT_NAME="Johan" -e BARRIO="El-Dorado" -v biblioteca-el-dorado:/var/log/app -p 8084:8080 johanact/cali-service:v1
-podman run -d --name svc-johan --network el-dorado -e STUDENT_NAME="Johan" -e BARRIO="El-Dorado" -v biblioteca-el-dorado:/var/log/app -p 8084:8080 johanact/cali-service:v1
-podman container ls
-docker run -d --name svc-jhorman --network ciudad-jardin -e STUDENT_NAME="Jhorman" -e BARRIO="Ciudad Jardin" -v biblioteca-el-dorado:/var/log/app -p 8085:8080 es-sai-fi/cali-service:v1
-podman run -d --name svc-jhorman --network ciudad-jardin -e STUDENT_NAME="Jhorman" -e BARRIO="Ciudad Jardin" -v biblioteca-del-pueblo:/var/log/app -p 8085:8080 es-sai-fi/cali-service:v1
-podman login ghcr
-podman logout ghcr
-bash
-env
-bash
-podman run -d --name svc-jhorman --network ciudad-jardin -e STUDENT_NAME="Jhorman" -e BARRIO="Ciudad Jardin" -v biblioteca-del-pueblo:/var/log/app -p 8085:8080 es-sai-fi/cali-service:v1
-podman login ghcr
-podman login ghcr.io
-podman logout ghcr.io
-podman login ghcr.io
-podman run -d --name svc-jhorman --network ciudad-jardin -e STUDENT_NAME="Jhorman" -e BARRIO="Ciudad Jardin" -v biblioteca-del-pueblo:/var/log/app -p 8085:8080 es-sai-fi/cali-service:v1
-podman volume create biblioteca-del-pueblo
-podman run -d --name svc-jhorman --network ciudad-jardin -e STUDENT_NAME="Jhorman" -e BARRIO="Ciudad Jardin" -v biblioteca-del-pueblo:/var/log/app -p 8085:8080 ghcr.io/es-sai-fi/cali-service:v1
-curl http://localhost:8080
-curl http://localhost:8081
-podman container ls
-docker run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
-podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
-podmain container ls
-podman container ls
-podman container rm svc-nicolas
-podman container -f rm svc-nicolas
-podman container -force rm svc-nicolas
-podman container stop svc-nicolas
-podman container rm svc-nicolas
-podman run -d --name svc-nicolas --network canaveralejo -e STUDENT_NAME="Nicolas" -e BARRIO="Cañaveralejo" -v biblioteca-del-pueblo:/var/log/app -p 8081:80 nickcode13/cali-service:v1
-curl http://localhost:8081
-curl http://localhost:8082
-podman container ls
-curl http://localhost:8083
-curl http://localhost:8084
-curl http://localhost:8085
-podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
-podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 30 /data/visitas.log"
-curl http://localhost:8085
-curl http://localhost:8084
-curl http://localhost:8083
-curl http://localhost:8081
-curl http://localhost:8080
-docker run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
-podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
-docker network ls
-podman network ls
-podman system reset
-podman network create ciudad-jardin el-dorado bajo-jordan buitrera melendez cañaveralejo<\n>podman volume create biblioteca del pueblo
-podman network create ciudad-jardin<\n>podman network create el-dorado<\n>podman network create bajo-jordan<\n>podman network create buitrera<\n>podman network create melendez<\n>podman network create cañaveralejo
-podman network create canaveralejo
-docker run -d --network bajo-jordan -e STUDENT_NAME="Jose" -e BARRIO="Bajo Jordan" -v biblioteca-del-pueblo:/var/log/app -p 8082:8080 jamh4949/cali-service:v1
-<\n>podman run -d --network bajo-jordan -e STUDENT_NAME="Jose" -e BARRIO="Bajo Jordan" -v biblioteca-del-pueblo:/var/log/app -p 8082:8080 jamh4949/cali-service:v1
-curl http://localhost:8082
-podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
-podman run -d --name svc-nicolas --network canaveralejo -e STUDENT_NAME="Nicolas" -e BARRIO="Cañaveralejo" -v biblioteca-del-pueblo:/var/log/app -p 8081:80 nickcode13/cali-service:v1
-curl http://localhost:8080
-curl http://localhost:8081
-podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
-podman run --rm -v biblioteca-del-pueblo:/data alpine sh
-ls
-podman run --rm -it -v biblioteca-del-pueblo:/data alpine sh
-podman run -d --name svc-johan --network el-dorado -e STUDENT_NAME="Johan" -e BARRIO="El-Dorado" -v biblioteca-el-dorado:/var/log/app -p 8084:8080 johanact/cali-service:v1
-curl http://localhost:8084
-podman run --rm -it -v biblioteca-del-pueblo:/data alpine sh
-podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
-curl http://localhost:8084
-podman system reset
-podman network create ciudad-jardin<\n>podman network create el-dorado<\n>podman network create bajo-jordan<\n>podman network create buitrera<\n>podman network create melendez<\n>podman network create canaveralejo<\n>podman volume create biblioteca del pueblo
-podman network create ciudad-jardin<\n>podman network create el-dorado<\n>podman network create bajo-jordan<\n>podman network create buitrera<\n>podman network create melendez<\n>podman network create canaveralejo<\n>podman volume create biblioteca-del-pueblo
-podman volume create biblioteca-del-pueblo
-podman run -d --name svc-johan --network el-dorado -e STUDENT_NAME="Johan" -e BARRIO="El-Dorado" -v biblioteca-del-pueblo:/var/log/app -p 8080:8080 johanact/cali-service:v1
-podman run -d --name svc-esteban --network buitrera -e STUDENT_NAME="esteban" -e BARRIO="Buitrera" -v biblioteca-del-pueblo:/var/log/app -p 8081:8080 esgore/cali-service:v1
-podman run -d --network bajo-jordan -e STUDENT_NAME="Jose" -e BARRIO="Bajo Jordan" -v biblioteca-del-pueblo:/var/log/app -p 8082:8080 jamh4949/cali-service:v1
-<\n>podman run -d --name svc-dylan --network melendez -e STUDENT_NAME="Dylan" -e BARRIO="Melendez" -v biblioteca-del-pueblo:/var/log/app -p 8083:8080 drytec/cali-service:v1
-podman run -d --name svc-jhorman --network ciudad-jardin -e STUDENT_NAME="Jhorman" -e BARRIO="Ciudad Jardin" -v biblioteca-del-pueblo:/var/log/app -p 8084:8080 ghcr.io/es-sai-fi/cali-service<\n>:v1
-podman run -d --name svc-jhorman --network ciudad-jardin -e STUDENT_NAME="Jhorman" -e BARRIO="Ciudad Jardin" -v biblioteca-del-pueblo:/var/log/app -p 8084:8080 ghcr.io/es-sai-fi/cali-service:v1
-curl http://localhost:8080
-curl http://localhost:8081
-curl http://localhost:8082
-curl http://localhost:8083
-curl http://localhost:8084
-curl http://localhost:8085
-podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"
-touch lab
-podman system reset
-mv lab lab.nu
-chmod +x lab.nu
-./lab
-./lab.nu
-podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"<\n>
-podman container ls<\n>
-curl http://localhost:8080
-curl http://localhost:8081
-curl http://localhost:8083
-podman system reset
-podman network create ciudad-jardin<\n>podman network create el-dorado<\n>podman network create bajo-jordan<\n>podman network create buitrera<\n>podman network create melendez<\n>podman network create canaveralejo<\n>podman network create 4-esquinas<\n>podman volume create biblioteca-del-pueblo
-podman run -d --name svc-johan --network el-dorado -e STUDENT_NAME="Johan" -e BARRIO="El-Dorado" -v biblioteca-del-pueblo:/var/log/app -p 8080:8080 johanact/cali-service:v1<\n>
-curl http://localhost:8080
-podman system reset
-./lab.nu
-podman system reset
-gf
-cd dockerintro/
-gf
-gp origin jmga
-config nu
-./lab.nu
-config nu
-podman system reset
-./lab.nu
-podman system reset
-sudo pacman -S noto-fonts noto-fonts-emoji<\n>
-./lab.nu
-podman run --rm -v biblioteca-del-pueblo:/data alpine sh -c "tail -n 20 /data/visitas.log"<\n>
-podman system reset
-nvim .config/kitty/kitty.conf
-nvim .config/yazi/yazi.toml
-podman ps
-ps aux | rg avahi
-ps | rg avahi
-ps
-fd --glob "*copilot*" /
-fd github-copilot
-fd copilo
-fd copilot /
-fd copilot /home
-fd copilot /home/rickystarks/.config/
-fd --glob "*pacman*"
-fd --glob "*pacman*" /
-fd --glob "*copilot*" /
-echo $env.SHELL
-sudo pacman -Syu
-modinfo wd719x
-pacman -Qs linux-firmware
-systemctl poweroff
-steam
-sudo pacman -S niri
-systemctl services
-sudo fd --glob "*dunst*" /
-sudo systemctl status seatd
-sudo systemctl status elogind
+rm -r .config/tmux/
+sudo fd --glob "*tmux*" /
+nvim .config/tmux/layouts/dev.kdl
+nvim
+zellij ls
+zellij
+ls .config/zellij/
+sudo fd --glob "*dev.kdl*" /
+sudo fd --glob "*dev.kdl" /
+sudo fd --glob "dev.kdl" /
+rm -r .config/tmux/
+ls .config/tmux
+rm .config/tmux
+zellij
+nvim .config/zellij/config.kdl
+zellij
+help
+zellij help
+nvim .config/zellij/config.kdl
+bat .config/zellij/layouts/dev.kdl | wl-copy
+zellij
+nvim
+zellij ls
+nvim
+zellij
+nvim .config/zellij/config.kdl
+zellij
+zellij --layout dev
 z Projects
 ls
-sudo pacman -S fuzzel mako swaybg
-pacman -Qs xorg-xwayland
-sudo pacman -S lightdm
-bat /var/log/pacman.log
-sudo pacman -S lightdm-gtk-greeter
-sudo pacman -Rcns lightdm
-sudo pacman -S lightdm-gtk-greeter
-sudo systemctl status dunst
-sudo pacman -Qs dunst
-sudo pacman -Rcns dunst
-pacman -Qs xdg-desktop-portal-wlr
-systemctl --user status xdg-desktop-portal.service<\n>
-sudo pacman -S niri
-sudo systemctl enable lightdm.service --now
-sudo pacman -Rcns xdg-desktop-portal-kde
-pacman -Qs xdg-desktop-portal-kde
-pacman -Qs xdg-desktop-portal
-sudo fd --glob "*xdk-desktop-portal-kde*" /
-sudo pacman -S xdg-desktop-portal-gnome
-pacman -Qs plasma-polkit-agent
-pacman -Qs polkit-agent
-niri
-nvim .config/niri/config.kdl
-firefox
-ps | rg firefox
-pkill 23379
-firefox
-ps | rg firefox
-pkill 302
-firefox
-ps | rg firefox
-ps
-pkill -9 23379
-firefox
-ps aux
-ps
-ps | firefox
-firefox
-nvim .config/niri/config.kdl
-hyprland
-ls
-firefox
-ps | firefox
+mkdir color_display/
+z color_display/
+rust-analyzer
+sudo fd --glob "rust_analyzer" /
+sudo fd --glob "*rust*" /
+sudo fd --glob "*rust_analyzer*" /
+sudo fd --glob "*rust" /
+sudo fd --glob "rust*" /
+rm -r .local/state/nvim/
+rm -r .local/share/nvim/
+cls
+clear
+zellij ls
+sudo pacman -S rust
+rust-analyzer
+sudo pacman -S cargo
+cargo
+zellij --layout dev
+zellij ls
+z Projects/
+z color_display/
+cargo run
+rist --explain E0308
+rust --explain E0308
+rustc 
+rustc --explainE0308
+rustc --explain E0308
+cargo run
+z -
+mkdir simple_tracking_app
+z simple_tracking_app/
+cargo init
+ls Cargo.toml
+bat Cargo.toml
+z src/
+mkdir core
+z core/
+touch mod.rs
+sensors
+systemctl poweroff
+sudo pacman -Sy
+smartctl
+smartctl -h /dev/nvme0n1p1
+smartctl -h /dev/nvme0n1
+smartctl -H /dev/nvme0n1
+sudo smartctl -H /dev/nvme0n1
+sudo smartctl -h /dev/nvme0n1
+sudo smartctl -A /dev/nvme0n1
+nvim /etc/systemd/system.conf
+systemctl poweroff
 systemctl reboot
-ls /usr/share/wayland-sessions/
-sudo pacman -Rcns uwsm dolphin wofi xdg-desktop-portal-hyprland
-nvim
+sensors
+systemctl reboot
+systemctl poweroff
+sensors
+smartctl -H /dev/nvme0n1
+sudo smartctl -H /dev/nvme0n1
+sudo smartctl -a /dev/nvme0n1
+sudo fd --glob "startpage*" /
+sudo fd --glob "*startpage*" /
+sudo pacman -Syu
+btrfs-assistant-launcher
+sudo pacman -S llama.cpp
+sudo pacman -S llama
+ls Projects/MiniZinc/
+ls Projects/MiniZinc/kakuro/
+z Projects/MiniZinc/kakuro/
+bat kakuro3
+bat kakuro3.mzn
+bat kakuro2-variant-1.mzn | wl-copy
+z -
+z Minizinc
+z Projects
+z Minizinc
+z MiniZinc
+z sudoku/
+bat sudoku1.mzn
+bat sudoku1.mzn | wl-copy
+bar sudoku1.dzn
+bat sudoku1.dzn
+bat sudoku2.dzn
+bat sudoku3.dzn
+ls
+z -
+z kakuro/
+ls
+bat kakuro2-5.dzn
+bat kakuro2-3.dzn
+bat kakuro2-1.dzn | wl-copy
+z -
+z sudoku/
+bat sudoku1.dzn | wl-copy
+ls
+z -
+z kakuro
+ls
+rm kakuro3*
+ls
+rm kakuro2.mzn
+ls
+bat kakuro1.mzn
+systemctl poweroff
+sensors
+sudo pacman -Syu
+q
+z Zinema
+ls
+z Zinema
+dev-container 4173
+z Zinema
+git add .
+git reset
+git checkout -b feature/US-11-12-13-14
+git add .
+gcmsg "feature(favorite): added favoriteController, model, dao and their respective documentation"
+gp feature/US-11-12-13-14
+dev-container
+zellij --layout dev
+git fetch
+git pull origin main
+git config pull.rebase false
+git pull origin main
+git add .
+gcmsg "fix(merge): merge conflict fixed"
+git add .
+gcmsg "fix(favorite): fixed favoriteController, favoriteDAO and favoriteModel"
+git add .
+gcmsg "fix(copilot): fixed things across the project according to copilot suggestions"
+git status
+git branch -m jhorman-US-11-12-13-14
+git add .
+gp jhorman-US-11-12-13-14
+git branch -m jhorman-US-11-12-13-14-fix
+git status
+git rm -r --cached node_modules
+git add .
+gcmsg "remove node_modules"
+z Zinema
+z Zinema
+rm -rf node_modules/.cache
+git add .
+gcmsg "fix(project): fixea across the project"
+gp jhorman-US-11-12-13-14-fix
+dev-container
+zellij --layout dev
+zellij ls
+zellij delete-session marvellous-echidna
+zellij delete-session erudite-ocelot
+zellij delete-session charming-lemon
+sudo pacman -Syu
+systemctl reboot
+journalctl -r
+rm -r .local/share/nvim/
+rm -r .local/state/nvim/
+cargo
+cargo lis
+cargo--list
+cargo --list
+cargo
+ls /tmp
+sensors
+btrfs-assistant-launcher
+minizinc
+cd Projects/
+cargo init matrix_display
+ls
+cd matrix_display/
+bat Projects/color_display/src/main.rs
+z matrix
+cargo run
+systemctl poweroff
+sudo pacman -Syu
+systemctl poweroff
+mini
+sensors
+minizinc
+z .config

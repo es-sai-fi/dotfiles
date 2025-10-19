@@ -18,6 +18,9 @@ session/
 obsidian/
 obs-studio/
 fish/fish_variables
+mpv/
+gtk-4.0/
+menus/
 QtProject.conf
 baloofileinformationrc
 dolphinrc

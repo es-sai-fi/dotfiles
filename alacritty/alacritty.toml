@@ -1,0 +1,10 @@
+[window]
+opacity = 0.9
+decorations = "none"
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font Mono", style = "regular" }
+size = 13
+
+[general]
+import = ["~/.config/alacritty/themes/tokyo-night-storm.toml"]
