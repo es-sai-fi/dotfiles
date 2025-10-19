@@ -251,3 +251,15 @@ mini
 sensors
 minizinc
 z .config
+git add .
+gcmsg "feat(nvim): config update"
+gp master
+git login
+git
+git fetch
+gp master
+git remove -v
+git remote -v
+git remote set-url origin git@github.com:es-sai-fi/dotfiles.git
+gp master
+git status
